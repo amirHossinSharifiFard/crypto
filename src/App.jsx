@@ -1,14 +1,16 @@
 import "./App.css";
-import React from "react";
+import React, { useEffect, useState } from "react";
 // import { Route, Routes, Navigate } from "react-router-dom";
 
 
-const App = () => {
-  return (
-    <div className='App'>
+// compopnents
+import Landing from "./Components/Landing.jsx";
 
-    </div>
-  );
+const App = () => {
+
+  return <div className='App'>
+    <Landing/>
+  </div>;
 };
 
 export default App;
